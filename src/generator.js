@@ -1,8 +1,13 @@
+import "bootstrap";
+import "./style.css";
+
+
+
 document.querySelector(".btn").addEventListener("click", () => {
   document.querySelector(".subtitle").textContent = generatorExcuse();
 });
 
-function generatorExcuse() {
+ function generatorExcuse() {
   let pronombre = ["Mi", "Un"];
   let sujeto = ["cactus", "gato", "payaso"];
   let accion = ["ha mordido", "me tiro", "me grito"];
